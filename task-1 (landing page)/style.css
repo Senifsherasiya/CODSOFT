@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#container{
+  background: grey;
+}
+
+  /*    margin   */
+  .mrg{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  /*    header   */
+  #header{
+    background: white;
+  }
+  #header div{
+    display: flex;
+  }
+  #header div div{
+    width: 50%;
+    font-size: 30px;
+    
+  }
+  #header div div:nth-child(1){
+    padding-left: 50px;
+  }
+  #nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  #nav a{
+    text-decoration: none;
+  }
+  
+  /*    top img    */
+
+  #topimg{
+    background-image: url(img/headerimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+  }
+  #topimg div{
+    text-align: center;
+    padding-top: 100px;
+  }
+  #topimg div h1{
+    padding-bottom: 50px;
+  }
+
+  /*    about    */
+
+
+ #about{
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+ #about h1{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+ }
+ #about div img{
+  
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 8px;
+ }
+ #about div div{
+  
+  height: 300px;
+  padding-top: 20px;
+ }
+ #about div div h2{
+  margin-bottom: 20px;
+ }
+ #about div div button{
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  background: rgb(255, 255, 0);
+  color: black;
+  margin-top: 20px;
+ }
+
+ /*     service    */
+
+ #service div h1{
+  text-align: center;
+  margin-bottom: 40px;
+ }
+ #service div div{
+  display: flex;
+  justify-content: space-around;
+  
+ }
+ #service div div div{
+  background: green;
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+ }
+ #service div div ul li{
+  list-style: none;
+ }
+ #service div div ul li button{
+  padding: 4px;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: rgb(255, 255, 4);
+  color: black;
+ }
+ #service div div ul li img{
+  height: 75px;
+  width: 75px;
+ }
+
+ /*     project    */
+ 
+ #project div h1{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+ }
+ #project div div{
+  display: flex;
+  justify-content: space-around;
+ }
+ #project div div div{
+  background: indianred;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px;
+  text-align: center;
+ }
+ #project div div div ul li{
+  list-style: none;
+ }
+ #project div div div ul li img{
+  height: 200px;
+  width: 250px;
+  border-radius: 8px;
+ }
+ #project div div div ul li button{
+  padding: 3px;
+  border-radius: 5px;
+  background: rgb(255, 255, 0);
+  color: black;
+  margin-top: 4px;
+ }
+
+
+ /*     contactus    */
+
+ #contactus{
+  margin-top: 10px;
+ }
+ #contactus div h1{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+ }
+ #contactus div form input,textarea{
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+ }
+ #contactus div form input[type="submit"]{
+  background: rgb(255, 255, 23);
+ }
+
+
+ /*     footer     */
+
+ #footer{
+  background: white;
+  text-align: center;
+  padding: 5px;
+ }
